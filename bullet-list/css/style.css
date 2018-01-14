@@ -1,0 +1,9 @@
+li {
+    list-style-type: none;
+}
+
+li::before {
+    content: "\f0a4";
+    font-family: 'fontawesome';
+    font-size: 15px;
+}

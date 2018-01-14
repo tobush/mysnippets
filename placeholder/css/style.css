@@ -1,0 +1,16 @@
+input {
+    display: block;
+    margin: 5px;
+}
+
+.first::placeholder {
+    color: red;
+}
+
+.second::placeholder {
+    color: aqua
+}
+
+.third::placeholder {
+    color: darkred;
+}

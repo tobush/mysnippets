@@ -1,0 +1,8 @@
+a {
+    color: antiquewhite;
+    display: block;
+}
+
+a[href$=".docx"] {
+    color: cadetblue;
+}
