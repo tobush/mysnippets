@@ -1,0 +1,24 @@
+p {
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+}
+
+#pulse {
+    font-family: 'FontAwesome';
+    font-size: 45px;
+    color: red;
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(0.5);
+    }
+    
+    50% {
+        transform: scale(1);
+    }
+}
